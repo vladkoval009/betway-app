@@ -1,0 +1,30 @@
+:root{
+    --top-banner-prime: black;
+    --font-colour: white;
+}
+
+.header{
+    color: var(--font-colour);
+    background-color: var(--top-banner-prime);
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+h1{
+    padding: 3rem;
+}
+
+button{
+    
+    margin: 1.8rem;
+    height: 50px;
+    width: 100px;
+    border-radius: 5%;
+}
+
+button:hover{
+    color: var(--font-colour);
+    background-color: #00a826;
+}
